@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.CatsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Cat {
+  display: flex;
+  flex: 1 0 21%;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid black;
 }
